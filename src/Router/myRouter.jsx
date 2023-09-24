@@ -3,6 +3,7 @@ import LayOut from "../LayOut/LayOut";
 import Home from "../Pages/Home/Home";
 import Donations from "../Pages/Donation/Donations";
 import Statistics from "../Pages/Statistics/Statistics";
+import Details from "../Pages/Details/Details";
 
 const myRouter = createBrowserRouter([{
     path: "/",
@@ -20,6 +21,11 @@ const myRouter = createBrowserRouter([{
         {
             path: "/stat",
             element: <Statistics></Statistics>
+        },
+        {
+            path: "/details/:id",
+            element: <Details></Details>,
+            loader: () => fetch('/data.json')
         }
     ]
 
