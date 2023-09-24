@@ -1,0 +1,168 @@
+ [
+    {
+      "id": 1,
+      "title": "Education",
+      "category": "Education",
+      "category_bg_color": "#de11114d",
+      "card_bg_color": "#de111166",
+      "text_btn_color": "#de1111cc",
+      "description": "Explore a world of knowledge and learning resources in various fields of study.",
+      "price": 100,
+      "details_picture": "https://i.ibb.co/gmF151B/Rectangle-4288.png",
+      "card_picture": "https://i.ibb.co/xY13NS1/Rectangle-4287-1.png",
+      "picture": "https://i.ibb.co/KVHVrHg/Education.png"
+
+    },
+    {
+      "id": 2,
+      "title": "Health",
+      "category": "Health",
+      "category_bg_color": "#1190de4d",
+      "card_bg_color": "#1190de66",
+      "text_btn_color": "#118fde",
+      "description": "Discover tips, advice, and products to help you lead a healthy and active life.",
+      "price": 75,
+      "picture": "https://i.ibb.co/RBsqPtN/Health.png",
+      "card_picture": "https://i.ibb.co/KDYDzvL/Rectangle-4284.png",
+      "details_picture":"https://i.ibb.co/tCC1YCR/health-donation.jpg"
+
+    },
+    {
+      "id": 3,
+      "title": "Clothing",
+      "category": "Fashion",
+      "category_bg_color": "#57ffa254",
+      "card_bg_color": "#57ffa266",
+      "text_btn_color": "#57ffa2",
+      "description": "Stay trendy with our latest fashion collection for all occasions.",
+      "price": 50,
+      "picture": "https://i.ibb.co/3zBz8jm/Clothing.png",
+      "card_picture":"https://i.ibb.co/ZGvz6Z0/Rectangle-4287.png",
+      "details_picture":"https://i.ibb.co/brNwNMD/clothes-donations.jpg"
+
+
+    },
+    {
+      "id": 4,
+      "title": "Food",
+      "category": "Food",
+      "category_bg_color": "#f3881654",
+      "card_bg_color": "#f3881666",
+      "text_btn_color": "#f38816",
+      "description": "Savor delicious flavors from around the world with our culinary delights.",
+      "price": 250,
+      "picture": "https://i.ibb.co/hsB6qdc/Food.png",
+      "card_picture":"https://i.ibb.co/Cmtwb5V/Rectangle-4287-2.png",
+      "details_picture": "https://i.ibb.co/ydX81wL/foods-donation.jpg"
+    },
+     {
+      "id": 5,
+      "title": "Clothing",
+      "category": "Fashion",
+      "category_bg_color": "#57ffa254",
+      "card_bg_color": "#57ffa266",
+      "text_btn_color": "#57ffa2",
+      "description": "Stay trendy with our latest fashion collection for all occasions.",
+      "price": 50,
+      "picture": "https://i.ibb.co/3zBz8jm/Clothing.png",
+      "card_picture":"https://i.ibb.co/ZGvz6Z0/Rectangle-4287.png",
+      "details_picture":"https://i.ibb.co/brNwNMD/clothes-donations.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Food",
+      "category": "Food",
+      "category_bg_color": "#f3881654",
+      "card_bg_color": "#f3881666",
+      "text_btn_color": "#f38816",
+      "description": "Savor delicious flavors from around the world with our culinary delights.",
+      "price": 250,
+       "picture": "https://i.ibb.co/hsB6qdc/Food.png",
+      "card_picture":"https://i.ibb.co/Cmtwb5V/Rectangle-4287-2.png",
+      "details_picture": "https://i.ibb.co/ydX81wL/foods-donation.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Education",
+      "category": "Education",
+      "category_bg_color": "#de11114d",
+      "card_bg_color": "#de111166",
+      "text_btn_color": "#de1111cc",
+      "description": "Explore a world of knowledge and learning resources in various fields of study.",
+      "price": 100,
+      "details_picture": "https://i.ibb.co/gmF151B/Rectangle-4288.png",
+      "card_picture": "https://i.ibb.co/xY13NS1/Rectangle-4287-1.png",
+      "picture": "https://i.ibb.co/KVHVrHg/Education.png"
+
+
+    },
+    {
+      "id": 8,
+      "title": "Health",
+      "category": "Health",
+      "category_bg_color": "#1190de4d",
+      "card_bg_color": "#1190de66",
+      "text_btn_color": "#118fde",
+      "description": "Discover tips, advice, and products to help you lead a healthy and active life.",
+      "price": 75,
+      "picture": "https://i.ibb.co/RBsqPtN/Health.png",
+      "card_picture": "https://i.ibb.co/KDYDzvL/Rectangle-4284.png",
+      "details_picture":"https://i.ibb.co/tCC1YCR/health-donation.jpg"
+
+    },
+ {
+      "id": 9,
+      "title": "Education",
+      "category": "Education",
+      "category_bg_color": "#de11114d",
+      "card_bg_color": "#de111166",
+      "text_btn_color": "#de1111cc",
+      "description": "Explore a world of knowledge and learning resources in various fields of study.",
+      "price": 100,
+      "details_picture": "https://i.ibb.co/gmF151B/Rectangle-4288.png",
+      "card_picture": "https://i.ibb.co/xY13NS1/Rectangle-4287-1.png",
+      "picture": "https://i.ibb.co/KVHVrHg/Education.png"
+    },
+    {
+      "id": 10,
+      "title": "Health",
+      "category": "Health",
+      "category_bg_color": "#1190de4d",
+      "card_bg_color": "#1190de66",
+      "text_btn_color": "#118fde",
+      "description": "Discover tips, advice, and products to help you lead a healthy and active life.",
+      "price": 75,
+      "picture": "https://i.ibb.co/RBsqPtN/Health.png",
+      "card_picture": "https://i.ibb.co/KDYDzvL/Rectangle-4284.png",
+      "details_picture":"https://i.ibb.co/tCC1YCR/health-donation.jpg"
+
+    },
+    {
+      "id":11,
+      "title": "Clothing",
+      "category": "Fashion",
+      "category_bg_color": "#57ffa254",
+      "card_bg_color": "#57ffa266",
+      "text_btn_color": "#57ffa2",
+      "description": "Stay trendy with our latest fashion collection for all occasions.",
+      "price": 50,
+      "picture": "https://i.ibb.co/3zBz8jm/Clothing.png",
+      "card_picture":"https://i.ibb.co/ZGvz6Z0/Rectangle-4287.png",
+      "details_picture":"https://i.ibb.co/brNwNMD/clothes-donations.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Food",
+      "category": "Food",
+      "category_bg_color": "#f3881654",
+      "card_bg_color": "#f3881666",
+      "text_btn_color": "#f38816",
+      "description": "Savor delicious flavors from around the world with our culinary delights.",
+      "price": 250,
+      "picture": "https://i.ibb.co/hsB6qdc/Food.png",
+      "card_picture":"https://i.ibb.co/Cmtwb5V/Rectangle-4287-2.png",
+      "details_picture": "https://i.ibb.co/ydX81wL/foods-donation.jpg"
+    }
+    
+  ]
+
