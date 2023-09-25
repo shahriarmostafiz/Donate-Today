@@ -3,9 +3,10 @@ import { NavLink } from "react-router-dom";
 
 const Category = ({ category }) => {
     const { id, title, category_name, category_bg_color, text_btn_color, picture, card_bg_color } = category
-    console.log(text_btn_color);
+    // console.log(text_btn_color);
     return (
-        <div className="w-[312px] mx-auto " style={{ backgroundColor: `${category_bg_color}`, borderRadius: '8px', paddingBottom: '8px' }}>
+        <div className="w-[312px] mx-auto "
+            style={{ backgroundColor: `${category_bg_color}`, borderRadius: '8px', paddingBottom: '8px' }}>
             <NavLink to={`/details/${id}`}>
                 <div>
                     <img src={picture} alt="" />
