@@ -4,32 +4,11 @@ import { useEffect, useState } from "react";
 const Categories = ({ categories, searchData }) => {
     const [ourCategory, setOurCategory] = useState(categories)
     useEffect(() => {
-        if (searchData.toLowerCase() === 'all') {
-            setOurCategory(categories)
-
+        const codeWords = ["blood", "cancer", "children", "africa", "earthquake", "flood", "poverty", "volunteering", "food", "fashion", "health", "education"]
+        if (codeWords.includes(searchData.toLowerCase())) {
+            const thisCategory = categories.filter(category => category.category_name.toLowerCase() === searchData.toLowerCase())
+            setOurCategory(thisCategory)
         }
-
-        else if (searchData.toLowerCase() === 'education') {
-            const eduCationCategory = categories.filter(category => category.category_name === 'Education')
-            setOurCategory(eduCationCategory)
-
-        }
-        else if (searchData.toLowerCase() === 'health') {
-            const healthCategory = categories.filter(category => category.category_name === 'Health')
-            setOurCategory(healthCategory)
-
-        }
-        else if (searchData.toLowerCase() === 'food') {
-            const foodCategory = categories.filter(category => category.category_name === 'Food')
-            setOurCategory(foodCategory)
-
-        }
-        else if ((searchData.toLowerCase() === 'fashion') || (searchData.toLowerCase() === "cloth")) {
-            const clothingCategory = categories.filter(category => category.category_name === 'Fashion')
-            setOurCategory(clothingCategory)
-
-        }
-
 
     }, [categories, searchData])
 
