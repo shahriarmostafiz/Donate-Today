@@ -24,7 +24,7 @@ const Categories = ({ categories, searchData }) => {
             setOurCategory(foodCategory)
             searchData = ''
         }
-        else if (searchData.toLowerCase() === 'clothing') {
+        else if (searchData.toLowerCase() === 'fashion') {
             const clothingCategory = categories.filter(category => category.category_name === 'Fashion')
             setOurCategory(clothingCategory)
             searchData = ''
