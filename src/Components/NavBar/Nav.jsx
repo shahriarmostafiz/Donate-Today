@@ -4,7 +4,7 @@ const Navbar = () => {
     const logo = "https://i.ibb.co/3hVw4xS/Logo.png"
     return (
         <div >
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row py-5 gap-8 md:gap-0  justify-between items-center">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row py-5 p-4 gap-8 md:gap-0  justify-between items-center">
 
                 <div>
                     <img src={logo} className="w-40" alt="" />
