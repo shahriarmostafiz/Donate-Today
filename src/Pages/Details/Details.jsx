@@ -27,8 +27,8 @@ const Details = () => {
     return (
         <div className="max-w-7xl mx-auto my-16">
             <div className="relative">
-                <img src={details_picture} className="w-full" alt="" />
-                <div className="absolute w-full h-20 bottom-0 flex items-center px-8"
+                <img src={details_picture} className="w-full rounded-lg" alt="" />
+                <div className="absolute w-full h-20 bottom-0 flex items-center px-8 rounded-b-lg"
                     style={{ backgroundColor: `${category_bg_color}` }}>
                     <button
                         onClick={handleDonate}

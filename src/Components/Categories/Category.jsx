@@ -9,7 +9,7 @@ const Category = ({ category }) => {
             style={{ backgroundColor: `${category_bg_color}`, borderRadius: '8px', paddingBottom: '8px' }}>
             <NavLink to={`/details/${id}`}>
                 <div>
-                    <img src={picture} alt="" />
+                    <img src={picture} className="rounded-t-lg" alt="" />
                 </div>
                 <div className="px-4 flex py-2 w-fit rounded  font-bold my-4 mx-4" style={{ backgroundColor: `${card_bg_color}`, color: `${text_btn_color}` }}>{category_name}</div>
                 <h1 style={{ color: `${text_btn_color}`, fontWeight: "600", marginLeft: "16px" }} >{title}</h1>

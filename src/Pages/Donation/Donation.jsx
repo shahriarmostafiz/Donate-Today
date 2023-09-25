@@ -5,10 +5,10 @@ const Donation = ({ donation }) => {
 
     return (
         <div
-            style={{ backgroundColor: `${card_bg_color}`, borderRadius: '8px', display: 'flex' }}>
+            style={{ backgroundColor: `${card_bg_color}`, borderRadius: '8px', display: 'flex', height: "200px" }}>
 
             <div>
-                <img src={card_picture} alt="" />
+                <img src={card_picture} className=' rounded-l' alt="" />
             </div>
             <div>
                 <div className=' text-lg space-y-3 p-4'>
@@ -18,7 +18,6 @@ const Donation = ({ donation }) => {
                     <Link to={`/details/${id}`} > <button
                         style={{ backgroundColor: `${text_btn_color}`, fontWeight: '600', color: 'white', padding: '8px 16px', borderRadius: '8px' }}>
                         View Details</button ></Link>
-
                 </div>
 
             </div>
