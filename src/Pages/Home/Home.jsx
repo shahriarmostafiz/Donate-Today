@@ -10,7 +10,7 @@ const Home = () => {
         const data = inputRef.current.value
         setSearch(data)
     }
-    console.log(search);
+    // console.log(search);
     return (
         <div>
             {/* <Banner></Banner> */}

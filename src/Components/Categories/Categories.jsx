@@ -6,31 +6,29 @@ const Categories = ({ categories, searchData }) => {
     useEffect(() => {
         if (searchData.toLowerCase() === 'all') {
             setOurCategory(categories)
-            searchData = ''
+
         }
 
         else if (searchData.toLowerCase() === 'education') {
             const eduCationCategory = categories.filter(category => category.category_name === 'Education')
             setOurCategory(eduCationCategory)
-            searchData = ''
+
         }
         else if (searchData.toLowerCase() === 'health') {
             const healthCategory = categories.filter(category => category.category_name === 'Health')
             setOurCategory(healthCategory)
-            searchData = ''
+
         }
         else if (searchData.toLowerCase() === 'food') {
             const foodCategory = categories.filter(category => category.category_name === 'Food')
             setOurCategory(foodCategory)
-            searchData = ''
+
         }
-        else if (searchData.toLowerCase() === 'fashion') {
+        else if ((searchData.toLowerCase() === 'fashion') || (searchData.toLowerCase() === "cloth")) {
             const clothingCategory = categories.filter(category => category.category_name === 'Fashion')
             setOurCategory(clothingCategory)
-            searchData = ''
+
         }
-
-
 
 
     }, [categories, searchData])

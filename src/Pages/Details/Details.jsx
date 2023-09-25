@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import { getDonation, saveTheDonation } from "../../localStorage/localstorage";
+import { saveTheDonation } from "../../localStorage/localstorage";
 import Swal from 'sweetalert2'
 const Details = () => {
     const { id } = useParams()
