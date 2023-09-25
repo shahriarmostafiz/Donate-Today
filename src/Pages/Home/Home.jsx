@@ -10,16 +10,17 @@ const Home = () => {
         const data = inputRef.current.value
         setSearch(data)
     }
-    // console.log(search);
+
     return (
         <div>
-            {/* <Banner></Banner> */}
             <div>
                 <div>
                     <div className="hero h-[90vh]" style={{ backgroundImage: 'url(https://i.ibb.co/JBNT1st/banner.jpg)', }}>
                         <div className="hero-overlay bg-white bg-opacity-60"></div>
-                        <div className="hero-content text-center">
-                            <div className="max-w-md text-black">
+                        <div className="hero-content text-center flex-col">
+                            <h1 className="text-3xl md:text-4xl font-bold text-center py-4 md:py-6 ">Grow By Helping People In Need</h1>
+                            <div className=" max-w-md text-black ">
+
                                 <div className="relative">
                                     <input ref={inputRef} type="text" placeholder="Search here..." className="input input-bordered w-96 pr-16" />
                                     <button
