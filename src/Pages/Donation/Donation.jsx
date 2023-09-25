@@ -5,13 +5,13 @@ const Donation = ({ donation }) => {
 
     return (
         <div
-            style={{ backgroundColor: `${card_bg_color}`, borderRadius: '8px', display: 'flex', height: "200px" }}>
+            style={{ backgroundColor: `${card_bg_color}`, borderRadius: '8px', display: 'flex' }}>
 
             <div>
                 <img src={card_picture} className=' rounded-l' alt="" />
             </div>
             <div>
-                <div className=' text-lg space-y-3 p-4'>
+                <div className=' text-lg space-y-1 md:space-y-3 p-4'>
                     <div className="px-4 flex py-2 w-fit rounded  font-bold " style={{ backgroundColor: `${card_bg_color}`, color: `${text_btn_color}` }}>{category_name}</div>
                     <h1 className=' font-medium text-2xl'>{title}</h1>
                     <h1 style={{ color: `${text_btn_color}`, fontWeight: '700' }} > $ {price}</h1>
